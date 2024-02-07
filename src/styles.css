@@ -1,0 +1,77 @@
+
+
+
+/* Estilo común para el encabezado llamativo */
+.jumbotron {
+  background-color: #000000;
+  color: #fff;
+  padding: 60px 0;
+  text-align: center;
+}
+
+.jumbotron h1 {
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.jumbotron p {
+  font-size: 24px;
+}
+
+/* Estilo común para la tabla de productos */
+.table {
+  width: 100%;
+  margin-top: 30px;
+  border-collapse: collapse;
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos comunes para las cabeceras de la tabla */
+.table th {
+  background-color: #000000;
+  color: #fff;
+  font-weight: bold;
+  padding: 12px;
+  text-align: left;
+}
+
+/* Estilos comunes para las filas pares de la tabla */
+.table tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+/* Estilos comunes para las filas impares de la tabla */
+.table tbody tr:nth-child(odd) {
+  background-color: #fff;
+}
+
+/* Estilos comunes para las celdas de la tabla */
+.table td {
+  padding: 10px;
+  border-bottom: 0px solid #000000;
+}
+
+/* Cambiar el color del texto en las celdas al pasar el mouse */
+.table tbody tr:hover td {
+  color: #EFB810;
+  font-weight: bold;
+}
+
+body {
+  background-color: #000000; /* Cambia este valor al color de fondo que desees */
+  margin: 0; /* Elimina los márgenes predeterminados del body */
+  padding: 0; /* Elimina el relleno predeterminado del body */
+  color: #fff;
+  font-family: 'Labtop Superwide', sans-serif;
+
+}
+
+@import url('https://fonts.cdnfonts.com/css/labtop');
+
+
+.card {
+  background-color: #ffffff;
+  width: 200px;
+}

@@ -1,0 +1,86 @@
+/* Estilo base para la barra de navegación */
+.topnav {
+  display: flex;
+  align-items: center;
+  background-color: #ffffff;
+  padding: 10px;
+  max-height: auto;
+  overflow: hidden;
+}
+
+.nav-container {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+/* Estilo para la imagen del logo */
+.topnav img {
+  max-height: 30px;
+  max-width: 100px;
+  height: auto;
+  margin-right: 10px;
+}
+
+/* Estilo para la marca (nombre) */
+.brand {
+  flex-grow: 1;
+  text-align: center;
+}
+
+.brand a {
+  font-family: "Arial", sans-serif;
+  font-size: 36px;
+  font-weight: bold;
+  color: #f2f2f2;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  transition: text-shadow 0.3s;
+}
+
+/* Efecto de sombra al texto al pasar el mouse */
+.brand a:hover {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+/* Estilo para los enlaces */
+.links {
+  flex: 0 0 auto;
+}
+
+/* Estilo base para los enlaces */
+.links a {
+  height: 30px;
+  margin-right: 10px;
+  text-decoration: none;
+  color: #000000;
+  font-size: 17px;
+  padding: 14px 120px;
+  text-align: center;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+/* Cambia el color de los enlaces al pasar el mouse */
+.links a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Estilo para el enlace activo */
+.links a.active {
+  background-color: #EFB810;
+  color: white;
+}
+
+/* Estilo para el ícono de inicio de sesión (imagen) */
+.login-icon {
+  margin-left: 10px; /* Ajusta el espacio a la izquierda del ícono según tus necesidades */
+}
+
+/* Estilo para la imagen de inicio de sesión */
+.login-icon img {
+  width: 24px; /* Ajusta el ancho de la imagen según tus necesidades */
+  height: 24px; /* Ajusta la altura de la imagen según tus necesidades */
+}
+

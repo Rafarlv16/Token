@@ -1,0 +1,18 @@
+<app-navbar></app-navbar>
+
+<div class="jumbotron">
+    <h1>Bienvenidos a Guaches</h1><br>
+    <div class="collage">
+        <div class="collage-item" *ngFor="let producto of productos$ | async" class="col-md-4">
+            <div class="card mb-4 box-shadow">
+                <img [src]="producto.Foto" alt="{{ producto.Nombre }}" width="200px" height="200px">
+                <div class="card-body">
+                    <h2 class="card-title">{{ producto.Nombre }}</h2>
+                    <p class="card-text">Precio: {{ producto.Precio | currency:'EUR':'symbol' }}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<app-pie></app-pie>

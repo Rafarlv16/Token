@@ -1,0 +1,63 @@
+<!-- Encabezado de la página de contacto -->
+    
+    <div class="background-container">
+        
+        <app-navbar></app-navbar>
+        <div class="jumbotron2">
+            <h1>Contacto</h1>
+            <p>¡Estamos aquí para ayudarte!</p>
+        </div>
+
+    <!-- Formulario de contacto y mapa -->
+    <div class="container">
+        <div class="row">
+            <div class="divcentrado">
+                <h2>Envíanos un mensaje</h2>
+                <form (submit)="enviarMensaje()">
+                    <div class="form-group">
+                        <label for="nombre">Nombre:</label>
+                        <input type="text" class="form-control" id="nombre" [(ngModel)]="nombre" name="nombre">
+                    </div>
+                    <div class="form-group">
+                        <label for="apellidos">Apellidos:</label>
+                        <input type="text" class="form-control" id="apellidos" [(ngModel)]="apellidos" name="apellidos">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Correo Electrónico:</label>
+                        <input type="email" class="form-control" id="email" [(ngModel)]="email" name="email">
+                    </div>
+                    <div class="form-group">
+                        <label for="telefono">Teléfono:</label>
+                        <input type="tel" class="form-control" id="telefono" [(ngModel)]="telefono" name="telefono">
+                    </div>
+                    <div class="form-group">
+                        <label for="mensaje">Mensaje:</label>
+                        <textarea class="form-control" id="mensaje" [(ngModel)]="mensaje" name="mensaje"
+                            rows="4"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Enviar Mensaje</button>
+                </form>
+            </div>
+        </div>
+        <br>
+        <div class="divcentrado">
+            <!-- Información de contacto adicional -->
+            <h2>Información de Contacto</h2>
+            <p><strong>Teléfono:</strong> +635 23 54 61</p>
+            <p><strong>Correo Electrónico:</strong> info@guachesluxury.com</p>
+            <p><strong>Dirección:</strong> Auckland, Nueva Zelanda</p>
+            <!-- Puedes agregar más información de contacto si es necesario -->
+
+        </div>
+    </div>
+    
+    <!-- Mensaje de confirmación de envío -->
+    <div id="envio-confirmado" class="mensaje-envio">
+        <p>¡Mensaje enviado con éxito!</p>
+    </div>
+    
+</div>
+<p></p>
+<app-mapa></app-mapa>
+<!-- Incluye el mapa aquí -->
+<app-pie></app-pie>

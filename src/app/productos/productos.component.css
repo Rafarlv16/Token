@@ -1,0 +1,21 @@
+.collage {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Crea 3 columnas con tamaños iguales */
+    gap: 10px; /* Espacio entre las imágenes */
+  }
+  
+  .collage-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    border: 1px solid #ffffff; /* Agrega un borde a cada imagen */
+    border-radius: 5px; /* Añade esquinas redondeadas */
+  }
+  
+  .collage-item img {
+    max-width: 40%;
+    height: 80%;
+    object-fit: cover; /* Esto ajustará la imagen dentro del contenedor sin estirarla ni deformarla */
+  }
+  

@@ -1,0 +1,42 @@
+/* Estilos para el pie de página */
+.footer {
+    background-color: #333; /* Color de fondo del pie de página */
+    color: #fff; /* Color del texto del pie de página */
+    padding: 40px 0; /* Espaciado interior superior e inferior */
+  }
+  
+  /* Estilos para los botones de redes sociales */
+  .social-icons {
+    margin-top: 20px; /* Espaciado superior entre los botones y el texto */
+  }
+  
+  .social-icon {
+    font-size: 24px; /* Tamaño de fuente de los íconos */
+    margin-right: 10px; /* Espacio entre los íconos */
+    color: #fff; /* Color de los íconos */
+    text-decoration: none; /* Quita el subrayado de los enlaces */
+  }
+  
+  /* Cambia el color de los íconos cuando se pasa el cursor sobre ellos */
+  .social-icon:hover {
+    color: #04AA6D; /* Color de resaltado al pasar el cursor */
+  }
+  
+  /* Estilos para el texto de contacto */
+  .footer h3 {
+    font-size: 20px; /* Tamaño de fuente del título */
+    margin-top: 10px; /* Espaciado superior entre los títulos */
+  }
+  
+  /* Estilos para los datos de contacto */
+  .footer p {
+    font-size: 16px; /* Tamaño de fuente del texto de contacto */
+    margin-bottom: 5px; /* Espaciado inferior entre los elementos de contacto */
+  }
+  
+  /* Estilos para los iconos de redes sociales */
+.social-img {
+  max-width: 40px; /* Ancho máximo de los iconos */
+  max-height: 40px; /* Altura máxima de los iconos */
+  margin-right: 10px; /* Espacio entre los iconos */
+}

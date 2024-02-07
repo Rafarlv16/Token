@@ -1,0 +1,30 @@
+/* Estilo para el mapa */
+#map {
+  height: calc(100vh - 80xp );
+  width: 100%;
+  z-index: -1; /* Para asegurarse de que el mapa esté detrás del contenido */
+}
+
+/* Ajusta la altura del mapa en función de la altura del Navbar */
+@media screen and (max-width: 768px) {
+  /* Estilo para pantallas pequeñas, por ejemplo, dispositivos móviles */
+  #map {
+    height: calc(100vh - 56 xp);
+  }
+}
+
+/* Estilos para el mapa */
+#map {
+  width: 100%; /* Ajusta el ancho del mapa según tus necesidades */
+  height: 400px; /* Ajusta la altura del mapa según tus necesidades */
+  border: 3px solid #000000; /* Borde de 3px de grosor con color verde (puedes cambiar el color) */
+  border-radius: 10px; /* Añade esquinas redondeadas */
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1); /* Agrega una sombra suave */
+  margin-bottom: 20px; /* Espacio inferior para separarlo de otros elementos */
+}
+
+/* Estilos adicionales para mejorar la estética del mapa */
+#map .leaflet-control-attribution {
+  font-size: 12px; /* Tamaño de fuente del atributo del mapa */
+  font-style: italic; /* Estilo de fuente itálica para el atributo */
+}

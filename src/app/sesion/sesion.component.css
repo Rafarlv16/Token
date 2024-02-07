@@ -1,0 +1,48 @@
+/* Importación de estilos comunes */
+@import 'src/styles.css';
+
+/* Estilo para el encabezado llamativo del inicio de sesión */
+.jumbotron-sesion {
+  /* Estilos específicos para el componente sesion */
+  background-color: #000000; /* Color de fondo similar al de la página de inicio */
+  padding: 60px 0; /* Espacio interno superior e inferior */
+  text-align: center;
+}
+
+/* Estilo para el contenedor principal de inicio de sesión */
+.container {
+  /* Estilos específicos para el componente sesion */
+  max-width: 400px;
+  padding: 20px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: 20px auto; /* Centra el contenedor y agrega espacio */
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  font-weight: bold;
+}
+
+.form-control {
+  border: 1px solid #000; /* Borde negro para los campos de entrada */
+}
+
+.btn {
+  background-color: #EFB810;
+  color: #000000;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  display: block;
+  margin: 20px auto; /* Centra el botón y agrega espacio */
+}
+
+.btn:hover {
+  background-color: #000000;
+}

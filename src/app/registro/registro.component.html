@@ -1,0 +1,53 @@
+<app-navbar></app-navbar>
+
+<body>
+  <!-- Encabezado llamativo -->
+  <div class="jumbotron jumbotron-sesion">
+    <h1>Registro</h1>
+    <p>Regístrate para disfrutar de nuestros deliciosos panes frescos.</p>
+  </div>
+
+  <!-- Contenedor principal de registro -->
+  <div class="container">
+    <!-- Muestra el mensaje de error si existe -->
+    <div *ngIf="errorMessage" class="alert alert-danger">
+      {{ errorMessage }}
+    </div>
+
+    <form (ngSubmit)="registrarUsuario()">
+      <div class="form-group">
+        <label class="color-letra" for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" [(ngModel)]="nombre" class="form-control" required>
+      </div>
+
+      <div class="form-group">
+        <label class="color-letra" for="apellidos">Apellidos:</label>
+        <input type="text" id="apellidos" name="apellidos" [(ngModel)]="apellidos" class="form-control" required>
+      </div>
+
+      <div class="form-group">
+        <label class="color-letra" for="telefono">Número de Teléfono:</label>
+        <input type="tel" id="telefono" name="telefono" [(ngModel)]="telefono" class="form-control" required>
+      </div>
+
+      <div class="form-group">
+        <label class="color-letra" for="correo">Correo Electrónico:</label>
+        <input type="email" id="correo" name="correo" [(ngModel)]="correo" class="form-control" required>
+      </div>
+
+      <div class="form-group">
+        <label class="color-letra" for="contrasena">Contraseña:</label>
+        <input type="password" id="contrasena" name="contrasena" [(ngModel)]="contrasena" class="form-control" required>
+      </div>
+
+      <div class="form-group">
+        <label class="color-letra" for="confirmarContrasena">Confirma tu Contraseña:</label>
+        <input type="password" id="confirmarContrasena" name="confirmarContrasena" [(ngModel)]="confirmarContrasena" class="form-control" required>
+      </div>
+
+      <button class="color-letra" type="submit" class="btn btn-primary">Registrarse</button>
+    </form>
+  </div>
+</body>
+
+<app-pie></app-pie>

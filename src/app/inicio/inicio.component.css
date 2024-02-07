@@ -1,0 +1,87 @@
+/* Importa otros estilos si es necesario */
+@import 'src/styles.css';
+
+/* Estilo para la imagen de la relojeria */
+.image-banner {
+  width: 100%;
+  max-height: 300px;
+  overflow: hidden;
+}
+
+.image-banner img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  object-position: bottom;
+}
+
+/* Estilo para la sección de historia de la relojeria */
+.story-section {
+  padding: 40px;
+  text-align: center;
+}
+
+.story-section h2 {
+  font-size: 36px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.story-section p {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #ffffff;
+}
+
+/* Agrega un margen superior a la sección de historia para separarla de la imagen */
+.story-section {
+  margin-top: 20px;
+}
+
+/* Estilo para las imágenes de la sección de inicio */
+.image-button-container-inicio {
+  text-align: center;
+}
+
+.image-button {
+  display: block;
+  margin: 10px auto;
+  cursor: pointer;
+}
+
+.reloj-inicio {
+  width: 200px; /* Ancho deseado en píxeles */
+  height: 200px; /* Alto deseado en píxeles */
+  object-fit: cover; /* Esto ajustará la imagen dentro del contenedor sin estirarla ni deformarla */
+}
+
+.reloj-colaboraciones {
+  width: 300px; /* Ancho deseado en píxeles */
+  height: 300px; /* Alto deseado en píxeles */
+  object-fit: cover; /* Esto ajustará la imagen dentro del contenedor sin estirarla ni deformarla */
+}
+
+.collage {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.collage-item {
+  flex: 1;
+  margin: 5px;
+}
+
+.collage-item img {
+  max-width: 100%;
+}
+
+.blog {
+  background-color: #777777; /* Cambia el color de fondo según tus preferencias */
+  color: #fff; /* Cambia el color del texto según tus preferencias */
+  padding: 10px 20px; /* Ajusta el relleno según tus preferencias */
+  border: none;
+  border-radius: 5px; /* Añade esquinas redondeadas según tus preferencias */
+  cursor: pointer;
+  text-align: center;
+}
+

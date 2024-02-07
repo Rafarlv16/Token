@@ -1,0 +1,42 @@
+@import 'src/styles.css';
+/* Estilo para el contenedor principal de registro */
+.container {
+  max-width: 400px;
+  padding: 20px;
+  background-color: #f4f4f4;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: 20px auto;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  font-weight: bold;
+}
+
+.form-control {
+  border: 1px solid #000;
+}
+
+.btn {
+  background-color: #EFB810;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  display: block;
+  margin: 20px auto;
+}
+
+.btn:hover {
+  background-color: #EFB810;
+}
+
+
+.color-letra{
+  color: #000;
+}
