@@ -20,6 +20,7 @@ import { RegistroComponent } from './registro/registro.component';
 import { ProductosComponent } from './productos/productos.component';
 import { Error404Component } from './error404/error404.component';
 import { provideFirestore,getFirestore } from '@angular/fire/firestore';
+import { Estoesrama2Component } from './estoesrama2/estoesrama2.component';
 
 
 
@@ -34,7 +35,8 @@ import { provideFirestore,getFirestore } from '@angular/fire/firestore';
     SesionComponent,
     RegistroComponent,
     ProductosComponent,
-    Error404Component
+    Error404Component,
+    Estoesrama2Component
   
   ],
   imports: [
